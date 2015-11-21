@@ -1,0 +1,5 @@
+01_support-non-multiarch-modules.patch
+xubuntu_migrate-tasklist-separator.patch
+02_support-dmtool.patch
+external_plugin_black_fix.diff
+hidpi.patch

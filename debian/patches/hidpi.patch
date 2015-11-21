@@ -1,0 +1,24 @@
+Index: xfce4-panel-4.12.1/plugins/tasklist/tasklist-widget.c
+===================================================================
+--- xfce4-panel-4.12.1.orig/plugins/tasklist/tasklist-widget.c
++++ xfce4-panel-4.12.1/plugins/tasklist/tasklist-widget.c
+@@ -44,14 +44,14 @@
+ 
+ 
+ 
+-#define DEFAULT_BUTTON_SIZE          (25)
+-#define DEFAULT_MAX_BUTTON_LENGTH    (200)
+-#define DEFAULT_MENU_ICON_SIZE       (16)
++#define DEFAULT_BUTTON_SIZE          (50)
++#define DEFAULT_MAX_BUTTON_LENGTH    (400)
++#define DEFAULT_MENU_ICON_SIZE       (32)
+ #define DEFAULT_MIN_BUTTON_LENGTH    (DEFAULT_MAX_BUTTON_LENGTH / 4)
+ #define DEFAULT_ICON_LUCENCY         (50)
+ #define DEFAULT_ELLIPSIZE_MODE       (PANGO_ELLIPSIZE_END)
+-#define DEFAULT_MENU_MAX_WIDTH_CHARS (24)
+-#define ARROW_BUTTON_SIZE            (20)
++#define DEFAULT_MENU_MAX_WIDTH_CHARS (48)
++#define ARROW_BUTTON_SIZE            (40)
+ #define WIREFRAME_SIZE               (5) /* same as xfwm4 */
+ #define DRAG_ACTIVATE_TIMEOUT        (500)
+ 
